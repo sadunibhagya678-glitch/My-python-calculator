@@ -18,4 +18,6 @@ def on_click(button_text):
     elif button_text == "C":
            enter.delete(0, tk.END)
     else:
+
            entry.insert(tk.END, button_text)
+        
